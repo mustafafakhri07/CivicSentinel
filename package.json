@@ -1,0 +1,28 @@
+{
+  "name": "civicsentinel",
+  "private": true,
+  "version": "0.2.0",
+  "description": "CivicSentinel: AI infrastructure-reporting platform (Part 2: real incidents + vision AI)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test",
+    "test:demo": "node scripts/demo-flow.mjs",
+    "test:contract": "node scripts/supabase-contract.mjs",
+    "test:all": "npm test && npm run test:demo && npm run test:contract"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite": "^5.4.10"
+  }
+}
