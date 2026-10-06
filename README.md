@@ -1,4 +1,4 @@
-# CivicSentinel: Final Complete Release (Parts 1 + 2 + 3)
+# CivicSentinel
 
 CivicSentinel is an end-to-end AI infrastructure-reporting platform connecting citizens and municipal operations.
 A citizen photographs an issue (pothole, streetlight, drainage, road damage, garbage), a vision AI analyzes it, priority scoring is enforced server-side, incidents are stored in Supabase, and municipal administrators monitor, prioritize, and manage repairs with live telemetry and duplicate detection.
