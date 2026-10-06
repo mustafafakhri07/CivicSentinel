@@ -1,4 +1,4 @@
-# CivicSentinel:
+# CivicSentinel
 
 AI infrastructure-reporting platform. A citizen photographs a problem, a vision AI classifies it, the report is stored
 in Supabase, and city admins see it on the map and dashboard.
